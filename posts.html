@@ -1,0 +1,7 @@
+<ul class="post">
+	<li class="post__item" ng-repeat="post in posts">
+		<p class="post__item-title">{{ post.title }}</p>
+		<p class="post__item-intro">{{ post.body | limitTo:90 }}...</p>
+		<a class="post__item-detail" href="#/posts/{{ post.id }}"></a>
+	</li>
+</ul>

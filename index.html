@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="switterApp">
 <head>
 	<meta charset="UTF-8">
-	<title>bobrik</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Connect with your friends!</title>
 	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular-route.min.js"></script>
+	<script src="js/controller.js"></script>
 </head>
 <body>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto laborum tempore fugiat eaque harum, consequuntur nobis, reprehenderit accusamus libero iure nihil odit repellat omnis aspernatur quidem quam ullam, esse qui.
-	<script src="./js/jquery.min.js"></script>
-	<script src="./js/main.js"></script>
+	<div class="header">sWitter - connect with your friends</div>
+	<ng-view></ng-view>
 </body>
 </html>

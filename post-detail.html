@@ -1,0 +1,10 @@
+<div class="post__detail">
+	<p class="post__item-title">{{ post.title }}</p>
+	<p class="post__item-intro">{{ post.body }}</p>
+	<ul class="comments">
+		<li class="comments__item" ng-repeat="comment in comments">
+			{{ comment.body }}
+		</li>
+	</ul>
+</div>
+<a href="./" class="back-link"><< Вернуться к ленте</a>

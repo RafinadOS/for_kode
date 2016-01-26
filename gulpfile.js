@@ -23,7 +23,7 @@ gulp.task('concat-css', function () {
 
 // move html files to app folder
 gulp.task('html', function() {
-   gulp.src('index.html')
+   gulp.src('*.html')
    .pipe(gulp.dest('app'))
    .pipe(connect.reload());
 });
