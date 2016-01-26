@@ -1,4 +1,4 @@
-var switterApp = angular.module('switterApp', ['ngRoute']);
+var switterApp = angular.module('switterApp', ['ngRoute','ngAnimate']);
 
 switterApp.config(['$routeProvider', function ($routeProvide) {
 
